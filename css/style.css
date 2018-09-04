@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanssc.css');
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #7d7d7d;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #000;
+  font-family: 'Parisienne', cursive;
+  font-size: 3rem;
+  font-weight: normal;
+  width:100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h3 span {
+  /* background:#fff; */
+}
+
+h4 {
+  color: #000;
+  font-weight: normal;
+}
+
+.container {
+  margin: auto;
+}
+
+
+/* navigation
+_____________________________________________________________________________*/
+
+.header_nav {
+  display: none;
+}
+
+.g_navi {
+  background-color: #383838;
+  color: #fff;
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #a2a2a2;
+}
+
+.g_navi li {
+  font-size: 13px;
+  display: inline-flex;
+  padding: 0.8rem 0 0.8rem 2.5%;
+}
+
+.g_navi a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.g_navi a:hover {
+  color: #c1c1c1;
+}
+
+#lang {
+  font-family: 'Noto Sans SC', sans-serif;
+  float: right;
+  padding-right: 2.5%;
+}
+
+
+/* about
+_____________________________________________________________________________*/
+
+#about {
+  background-color: #fff;
+  padding-bottom: 25px;
+  margin: auto;
+}
+
+.bg_main {
+  display: none;
+  margin:auto;
+  max-width: 1600px;
+  width:100%;
+}
+
+.bg_mobile {
+  display: block;
+  margin: auto;
+  padding: 10px 0px 20px 0px;
+}
+
+
+
+/* slideshow container
+_____________________________________________________________________________*/
+
+.slideshow-container {
+  max-width: 1024px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: #fff;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+/* .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+/* The dots/bullets/indicators */
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* services
+_____________________________________________________________________________*/
+
+#services {
+  background-color: #f8f9fa;
+  padding: 0 0 150px;
+}
+
+#services img {
+  width: 150px;
+  height: 150px;
+}
+
+
+/* location
+_____________________________________________________________________________*/
+
+#location {
+  /* background-color: #e6e6e6; */
+  padding: 0 0 150px;
+}
+
+.g_location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.g_location img {
+  width: 130px;
+  height: 130px;
+  margin: 0 1rem 1rem 1rem;
+}
+
+/* contact
+_____________________________________________________________________________*/
+
+#contact {
+  background: #f8f9fa url(../img/bg_bottom.jpg) no-repeat center;
+  padding: 0 0 200px;
+  position: relative;
+}
+
+.g_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+#contact img {
+  width: 45px;
+  height: 45px;
+  margin: 1rem;
+}
+
+
+
+/* footer
+_____________________________________________________________________________*/
+
+.g_footer {
+  background-color: #383838;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0;
+  height: auto;
+  overflow: hidden;
+  padding: 1.5rem;
+}
+
+.footer_logo {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.copyright_text {
+  font-size: 80%;
+  color: #e6e6e6;
+  padding-left: 0.8rem;
+}
+
+
+/* media
+_____________________________________________________________________________*/
+
+
+@media (min-width: 640px) {
+
+  .header_nav {
+    display: flex;
+  }
+
+  .bg_main {
+    display: block;
+  }
+
+  .bg_mobile {
+    display: none;
+  }
+
+  .g_location {
+    flex-direction: row;
+  }
+
+  .g_contact {
+    flex-direction: row;
+    margin-left: 20%;
+  }
+
+  .g_footer {
+    flex-direction: row;
+  }
+
+}

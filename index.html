@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/flexboxgrid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>EMC Integrated Therapy</title>
+</head>
+
+<body>
+
+  <div class="header_nav">
+    <nav class="content">
+      <ul class="g_navi">
+        <li><a href="#about">about</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="#location">location</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li id="lang"><a href="#">简体中文</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+  <div id="about">
+    <img src="img/bg_main.jpg" alt="" class="bg_main">
+    <img src="img/bg_logo.png" alt="" class="bg_mobile">
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="img/splash_acupuncture.jpg" style="width:100%">
+        <!-- <div class="text">Acupuncture</div> -->
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img/splash_herbal.jpg" style="width:100%">
+        <!-- <div class="text">Herbal Medicine</div> -->
+      </div>
+
+      <!-- <div class="mySlides fade">
+        <img src="img/splash_moxibustion.jpg" style="width:100%">
+        <div class="text">Moxibustion</div>
+      </div> -->
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div class="dot-container" style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+
+  <div id="services">
+    <div class="container">
+      <div class="row center-xs center-sm center-md center-lg">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h3><span>Services</span></h3>
+          <p>We are able to provide treatment or alleviate symptoms for many illnesses, including but not limited to:</p>
+
+          <!-- ICON ROW 1 -->
+          <div class="row center-xs center-sm center-md center-lg">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <img src="img/icon_canc.png" alt="">
+              <h4>Cancer Care</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <img src="img/icon_diab.png" alt="">
+              <h4>Diabetes</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <img src="img/icon_infert.png" alt="">
+              <h4>Infertility</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+
+          <!-- ICON ROW 2 -->
+          <div class="row center-xs center-sm center-md center-lg">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <img src="img/icon_pain.png" alt="">
+              <h4>Acute and Chronic Pain</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <img src="img/icon_rsi.png" alt="">
+              <h4>Facial Rejuvenation</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <img src="img/icon_sleep.png" alt="">
+              <h4>Stress & Sleep Disorders</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="location">
+    <div class="container">
+      <div class="row center-xs center-sm center-md center-lg">
+        <div class="">
+          <h3><span>Location</span></h3>
+          <div class="g_location">
+            <img src="img/if_location.png" alt="">
+            <span><strong>The Wellness Center</strong><br/>
+          2010 West Chester Pike <br/>
+          Suite 448 <br/>
+          Havertown, PA 19083</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <div class="row center-xs center-sm center-md center-lg">
+        <div class="">
+          <h3><span>Contact Us</span></h3>
+          <p>Please call us directly with any questions, comments, or scheduling inquiries you may have.</p>
+          <div class="g_contact">
+            <img src="img/if_phone.png" alt="">
+            <span>1 (484) 719-5219</span>
+            <img src="img/if_mail.png" alt="">
+            <span>contact@emcit.org</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="g_footer">
+    <div class="footer_logo"><img src="img/logo_footer.png" alt="EMC Logo"></div>
+    <div class="copyright_text">
+      <p>&copy; EMC INTEGRATED THERAPY, LLC. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
