@@ -101,12 +101,14 @@ _____________________________________________________________________________*/
   margin:auto;
   max-width: 1600px;
   width:100%;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .bg_mobile {
   display: block;
   margin: auto;
   padding: 10px 0px 20px 0px;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 
