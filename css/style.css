@@ -14,21 +14,17 @@ body {
 
 h1 {
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 2.6rem;
 }
 
 h3 {
   color: #000;
   font-family: 'Parisienne', cursive;
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: normal;
   width:100%;
   text-align: center;
   margin-bottom: 2rem;
-}
-
-h3 span {
-  /* background:#fff; */
 }
 
 h4 {
@@ -80,7 +76,7 @@ _____________________________________________________________________________*/
   color: #c1c1c1;
 }
 
-#lang {
+#changelang {
   font-family: 'Noto Sans SC', sans-serif;
   float: right;
   padding-right: 2.5%;
@@ -101,14 +97,12 @@ _____________________________________________________________________________*/
   margin:auto;
   max-width: 1600px;
   width:100%;
-  image-rendering: -webkit-optimize-contrast;
 }
 
 .bg_mobile {
   display: block;
   margin: auto;
   padding: 10px 0px 20px 0px;
-  image-rendering: -webkit-optimize-contrast;
 }
 
 
@@ -120,6 +114,7 @@ _____________________________________________________________________________*/
   max-width: 1024px;
   position: relative;
   margin: auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1);, -30px 0px 40px rgba(0, 0, 0, 0.1);
 }
 
 /* Hide the images by default */
@@ -209,8 +204,66 @@ _____________________________________________________________________________*/
 }
 
 #services img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
+}
+
+
+
+
+/* faq
+_____________________________________________________________________________*/
+
+
+#faq {
+  width: 100%;
+  max-width: 1024px;
+  margin: 50px auto;
+}
+
+button.accordion#first-child {
+  border-top: 1px #e6e6e6 solid;
+}
+
+button.accordion {
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  border-bottom: 1px #e6e6e6 solid;
+  overflow: hidden;
+  outline: none;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #444;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+button.accordion:after {
+  content: '\f055';
+  font-family: "fontawesome";
+  font-size: 14px;
+  float: right;
+}
+
+button.accordion.is-open:after {
+  content: '\f056';
+}
+
+button.accordion:hover, button.accordion.is-open {
+  background-color: #e6e6e6;
+}
+
+.accordion-content {
+  background-color: white;
+  /* border-left: 1px solid whitesmoke; */
+  /* border-right: 1px solid whitesmoke; */
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
 }
 
 
@@ -218,7 +271,7 @@ _____________________________________________________________________________*/
 _____________________________________________________________________________*/
 
 #location {
-  /* background-color: #e6e6e6; */
+  background-color: #f8f9fa;
   padding: 0 0 150px;
 }
 
@@ -230,8 +283,8 @@ _____________________________________________________________________________*/
 }
 
 .g_location img {
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
   margin: 0 1rem 1rem 1rem;
 }
 
@@ -239,13 +292,13 @@ _____________________________________________________________________________*/
 _____________________________________________________________________________*/
 
 #contact {
-  background: #f8f9fa url(../img/bg_bottom.jpg) no-repeat center;
+  background: #fff url(../img/bg_bottom.jpg) no-repeat bottom center;
   padding: 0 0 200px;
 }
 
-#contact img {
-  width: 45px;
-  height: 45px;
+.c_img {
+  width: 46px;
+  height: 46px;
 }
 
 
