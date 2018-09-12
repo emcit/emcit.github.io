@@ -8,16 +8,25 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
   <link rel="stylesheet" href="css/flexboxgrid.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>EMC Integrated Therapy</title>
+  <title>Acupuncture ・ TCM ・ EMC Integrated Therapy - Havertown PA</title>
 </head>
 
 <body>
 
+  <nav class='menu'>
+    <input checked='checked' class='menu-toggler' id='menu-toggler' type='checkbox'>
+    <label for='menu-toggler'></label>
+    <ul>
+      <li class='menu-item'><a href="#faq"><i class="fa fa-info" aria-hidden="true"></i></a></li>
+      <li class='menu-item'><a href="#location"><i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
+      <li class='menu-item'><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+    </ul>
+  </nav>
+
   <div class="header_nav">
     <nav class="content">
       <ul class="g_navi">
-        <li><a href="#about">about</a></li>
-        <li><a href="#services">services</a></li>
+        <li><a href="#services">About</a></li>
         <li><a href="#faq">faq</a></li>
         <li><a href="#location">location</a></li>
         <li><a href="#contact">contact us</a></li>
@@ -26,84 +35,78 @@
     </nav>
   </div>
 
-
-  <div id="about">
-    <img src="img/bg_main.jpg" alt="" class="bg_main">
-    <img src="img/bg_logo.png" alt="" class="bg_mobile">
-    <div class="slideshow-container">
-
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <img src="img/splash_acupuncture.jpg" style="width:100%">
-        <!-- <div class="text">Acupuncture</div> -->
+  <div id="main">
+    <div class="one">
+      <div class="two">
+        <div class="three">
+          <div class ="four">
+            <img src="img/c_main.png" alt="" class="center">
+          </div>
+        </div>
       </div>
-
-      <div class="mySlides fade">
-        <img src="img/splash_herbal.jpg" style="width:100%">
-        <!-- <div class="text">Herbal Medicine</div> -->
-      </div>
-
-      <!-- <div class="mySlides fade">
-        <img src="img/splash_moxibustion.jpg" style="width:100%">
-        <div class="text">Moxibustion</div>
-      </div> -->
-
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <br>
-
-    <!-- The dots/circles -->
-    <div class="dot-container" style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <!-- <span class="dot" onclick="currentSlide(3)"></span> -->
-    </div>
-  </div>
+  </div> <!-- #main -->
 
   <div id="services">
     <div class="container">
       <div class="row center-xs center-sm center-md center-lg">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <h3><span>Our Services</span></h3>
-          <p>We are able to provide treatment or alleviate symptoms for many illnesses, including but not limited to:</p>
-
-          <!-- row 1 -->
-          <div class="row center-xs center-sm center-md center-lg">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <img src="img/icon_canc.png" alt="">
-              <h4>Cancer Care</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <img src="img/icon_diab.png" alt="">
-              <h4>Diabetes</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <img src="img/icon_infert.png" alt="">
-              <h4>Infertility</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+          <h2 class="m_hide"><span>About</span></h2>
+          <img src="img/emc_logo-02.png" alt="" class="m_show"></img>
+          <div class="s_text">
+            <div class="row center-xs center-sm center-md center-lg">
+            <div class="col-xs-10 col-sm-10 col-md-5 col-lg-5">
+                <h4>Welcome to EMC Integrated Therapy</h4>
+                <p>We are practitioners of Traditional Chinese Medicine dedicated to provide the highest quality of service to you and our patients.</p>
+                <p>Our office is a joint partnership between experienced staff trained in Eastern and Western medicine. Our philosophy is to utilize both practices to form a comprehensive and integrative approach to health. </p>
+                <p>Our responsibility is to constantly strive to improve, keep up with latest medical breakthroughs, and never stagnate and be satisfied with our level of expertise.</p>
+              </div>
+              <div class="col-xs-10 col-sm-10 col-md-5 col-lg-5">
+                <h4>Our Services Include</h4>
+                <p>Acupuncture, Herbal Medicine, Moxibustion, Cupping Therapy, and Tui Na (Chinese Massage).</p>
+                <p>If you are unsure which type of service is right for you, please contact us for a free consultation.</p>
+                <p>Our treatments can help cure or alleviate symptoms for many illnesses; some of which include: </p>
+              </div>
             </div>
           </div>
 
-          <!-- row 2 -->
-          <div class="row center-xs center-sm center-md center-lg">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <img src="img/icon_pain.png" alt="">
-              <h4>Acute and Chronic Pain</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+          <div class="rounded_box">
+            <!-- row 1 -->
+            <div class="row center-xs center-sm center-md center-lg">
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <img src="img/icon_canc.png" alt="" class="s_icon">
+                <h4>Cancer Care</h4>
+                <p>Reduce side effects (vomiting, diarrhea, pain) of chemotherapy and radiation; boost energy levels and accelerate recovery </p>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <img src="img/icon_diab.png" alt="" class="s_icon">
+                <h4>Diabetes</h4>
+                <p>Reduce a1c levels and balance sugar levels </p>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <img src="img/icon_infert.png" alt="" class="s_icon">
+                <h4>Infertility</h4>
+                <p>Increase quality and quantify follicles during ivf; accurately predict ovulation time; improve blood flow to uterus and success rates</p>
+              </div>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <img src="img/icon_rsi.png" alt="">
-              <h4>Facial Rejuvenation</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <img src="img/icon_sleep.png" alt="">
-              <h4>Stress & Sleep Disorders</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+
+            <!-- row 2 -->
+            <div class="row center-xs center-sm center-md center-lg">
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <img src="img/icon_pain.png" alt="" class="s_icon">
+                <h4>Acute and Chronic Pain</h4>
+                <p>Counteract the imbalances and alleviate the symptoms </p>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <img src="img/icon_rsi.png" alt="" class="s_icon">
+                <h4>Facial Rejuvenation</h4>
+                <p>Remove unwanted elements such as lines, dark circles, acne and condition the shape of the face   </p>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <img src="img/icon_sleep.png" alt="" class="s_icon">
+                <h4>Stress, Anxiety & Sleep Disorders</h4>
+                <p>Relax the body and mind and help prevent strokes or heart attacks </p>
+              </div>
             </div>
           </div>
         </div>
@@ -112,46 +115,51 @@
   </div> <!-- #services -->
 
   <div id="faq">
-    <h3>Frequently Asked Questions</h3>
+    <h2>Frequently Asked Questions</h2>
     <button class="accordion" id="first-child">Payment Information</button>
     <div class="accordion-content">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
-      </p>
+      <p>Exams fees are due at the time of the appointment. </br>
+      Payments can be made in cash, check or credit card.  Limited online payment methods are also accepted.</p>
     </div>
 
     <button class="accordion">Insurance Information</button>
     <div class="accordion-content">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
-      </p>
+      <p>Providers include, but not limited to: Humana, Aetna, Cigna, United Healthcare, Kaiser Permanente, Blue Cross Blue Shield Association. </br>
+      Commercial Health Insurance is generally accepted.  </p>
     </div>
 
-    <button class="accordion">Question #3</button>
+    <button class="accordion">What is Acupuncture and how does it work?</button>
     <div class="accordion-content">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
-      </p>
+      <p>Acupuncture is a time-tested healing technique developed over 3000 years ago.  Despite how ancient it is, it is still a prominent study being researched and developed today.  </p>
+      <p>Acupuncture is a subset of Traditional Chinese Medicine (TCM), where the principle is to view human beings as wholes.  </p>
+      <p>There’s a natural flow of energy throughout one’s body.  When this is disrupted, it affects one’s wellness and self-healing interaction of the mind and body.  </p>
+      <p>A trained practitioner is able to pinpoint these energy imbalances in many ways such as visual cues or pulse listening techniques.  </p>
+      <p>The practice is to pierce a fine needle is through an area of the skin in relation to the disease by a depth of a few millimeters.  By doing this, we can influence and correct the natural flow of energy and accelerate the body’s capabilities of natural healing.  </p>
+    </div>
+    <button class="accordion">How does Traditional Chinese Medicine differ from Western Medicine?</button>
+    <div class="accordion-content">
+      <p>TCM takes a macro approach to disease by looking a human being as a whole.  It focuses on prevention, wellness and the self-healing mechanisms of the mind and body.  </p>
+      <p>In contrast, Western medicine looks at parts of the body separately and deals with the underlying problem directly by utilizing drugs or technology.  </p>
+      <p>The efficacy of Western medicine may be the greatest among all practices but there are instances where it cannot control side effects of the drugs or reduce the patient’s pain and suffering.   Where Western medicine fails is often where people turn to TCM.  Proper application of TCM imposes no harmful effects and can often treat problems where Western Medicine is lacking or be used as a complementary medicine to help ease symptoms and promote faster healing.  </p>
+      <p>Using both philosophies side by side we can realize a much greater potential for medical treatments.    </p>
     </div>
   </div> <!-- #faq -->
 
   <div id="location">
     <div class="container">
       <div class="row center-xs center-sm center-md center-lg">
-        <div class="">
-          <h3><span>Location</span></h3>
-          <div class="g_location">
-            <img src="img/if_location.png" alt="">
-            <span><strong>The Wellness Center</strong><br/>
-          2010 West Chester Pike <br/>
-          Suite 448 <br/>
-          Havertown, PA 19083</span>
+        <div class="col-xs-12">
+          <h2><span>Location</span></h2>
+          <div class="row center-xs center-sm center-md center-lg">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <img src="img/if_location.png" alt="" class="l_img">
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <p><strong>The Wellness Center</strong></br> 2010 West Chester Pike </br> Suite 448 </br> Havertown, PA 19083</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <p><strong>Office Hours</strong></br> Mon-Sat: 8:00am - 5:00pm</br>  Walk-ins: available but limited.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -161,29 +169,35 @@
   <div id="contact">
     <div class="container">
       <div class="row center-xs center-sm center-md center-lg">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <h3><span>Contact Us</span></h3>
-          <p>Please call us directly with any questions, comments, or scheduling inquiries you may have.</p>
+        <div class="col-xs-10">
+          <h2><span>Contact Us</span></h2>
+          <p><strong>Please call us directly with any questions, comments, or scheduling inquiries you may have.</strong></p>
 
           <div class="row center-xs center-sm center-md center-lg">
               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <img src="img/if_phone.png" alt="" class="c_img">
-                <p>1 (484) 719-5219</p>
+                <h4>1 (484) 719-5219</h4>
               </div>
               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <img src="img/if_mail.png" alt="" class="c_img">
-                <p>contact@emcit.org</p>
-            </div>
+                <h4>contact@emcit.org</h4>
+              </div>
           </div>
+
         </div>
       </div>
     </div>
   </div> <!-- #contact -->
 
   <footer class="g_footer">
-    <div class="footer_logo"><img src="img/logo_footer.png" alt="EMC Logo"></div>
-    <div class="copyright_text">
-      <p>&copy; EMC INTEGRATED THERAPY, LLC. All Rights Reserved.</p>
+    <div class="container">
+      <div class="row center-xs center-sm start-md start-lg">
+          <div class="col-xs-6">
+              <div class="copyright_text">
+                <p>&copy; EMC INTEGRATED THERAPY, LLC. All Rights Reserved.</p>
+              </div>
+          </div>
+      </div>
     </div>
   </footer>
 
