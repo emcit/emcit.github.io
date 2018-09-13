@@ -1,4 +1,4 @@
 # emcit.org
 
 
-https://emcit.github.io/
+www.emcit.org
