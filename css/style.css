@@ -101,17 +101,23 @@ _____________________________________________________________________________*/
 .menu-toggler:checked ~ ul .menu-item {
   opacity: 1;
 }
+
 .menu-toggler:checked ~ ul .menu-item:nth-child(1) {
-  -webkit-transform: rotate(-5deg) translateX(-100px);
-          transform: rotate(-5deg) translateX(-100px);
+  -webkit-transform: rotate(0deg) translateX(-125px);
+          transform: rotate(0deg) translateX(-125px);
 }
 .menu-toggler:checked ~ ul .menu-item:nth-child(2) {
-  -webkit-transform: rotate(-60deg) translateX(-100px);
-          transform: rotate(-60deg) translateX(-100px);
+  -webkit-transform: rotate(-40deg) translateX(-125px);
+          transform: rotate(-40deg) translateX(-125px);
 }
 .menu-toggler:checked ~ ul .menu-item:nth-child(3) {
-  -webkit-transform: rotate(-115deg) translateX(-100px);
-          transform: rotate(-115deg) translateX(-100px);
+  -webkit-transform: rotate(-80deg) translateX(-125px);
+          transform: rotate(-80deg) translateX(-125px);
+}
+
+.menu-toggler:checked ~ ul .menu-item:nth-child(4) {
+  -webkit-transform: rotate(-120deg) translateX(-125px);
+          transform: rotate(-120deg) translateX(-125px);
 }
 
 .menu-toggler:checked ~ ul .menu-item a {
@@ -162,13 +168,18 @@ _____________________________________________________________________________*/
 }
 
 .menu-item:nth-child(2) a {
-  -webkit-transform: rotate(75deg);
-          transform: rotate(75deg);
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
 }
 
 .menu-item:nth-child(3) a {
-  -webkit-transform: rotate(125deg);
-          transform: rotate(125deg);
+  -webkit-transform: rotate(100deg);
+          transform: rotate(100deg);
+}
+
+.menu-item:nth-child(4) a {
+  -webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
 }
 
 .menu-item {
