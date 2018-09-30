@@ -248,9 +248,10 @@ _____________________________________________________________________________*/
 }
 
 #changelang {
-  font-family: 'Noto Sans SC', sans-serif;
+  /* font-family: 'Noto Sans SC', sans-serif; */
   float: right;
-  padding-right: 2.5%;
+  font-size: 28px;
+  padding: 0 2.5% 0 0;
 }
 
 
